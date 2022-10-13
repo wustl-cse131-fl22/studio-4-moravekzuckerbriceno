@@ -1,6 +1,11 @@
 package studio4;
 
 import javax.swing.JOptionPane;
+
+import java.awt.Color;
+
+import edu.princeton.cs.introcs.StdDraw;
+
 import javax.swing.SwingUtilities;
 
 import edu.princeton.cs.introcs.StdDraw;
@@ -31,11 +36,18 @@ public class NorwayMotherOfAllFlags {
 	public static void france() {
 		
 		// TODO
+		StdDraw.clear();
+		
+	
 	}
 
 	public static void indonesia() {
 		
 		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(10,15, 17, 7);
+		
 	}
 
 	public static void netherlands() {
